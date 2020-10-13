@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Feedback Zomato</title>
+		    <link rel="stylesheet" href="style.css">
+	</head>
+	<body><center>
+		<a href="food.html"><b ><h1 style=color:brown>Zomato Gold</h1></b></a><br>
+		<h3 style=color:brown>FeedBack</h>
+		</center>
+		<form style="border:2px solid black">
+			<h3>Name:</h3>
+			<br>
+			<input type="text" name="fname" placeholder="First Name">
+			<br>
+			<input type="text" name="lname" placeholder="Last Name">
+			<br>
+			<h3>Mobile Number:</h3>
+			<input type="tel" name="num" placeholder="Number">
+			<br>
+			<h3>Email:</h3>
+			<input type="email" name="email" placeholder="Email">
+			<br>
+			<h3>Gender:</h3>
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="others">Others
+			<br>
+			<br>
+			<h3>Feedback Rating:</h3>
+			<select>
+			<option value="a">Very Good</option>
+			<option value="b">Good</option>
+			<option value="c" selected>Average</option>
+			<option value="d">Poor</option>
+			<option value="e">Worst</option>
+			</select>
+			<br>
+			<br>
+			<h3>FeedBack:</h3>
+			<br>
+			<textarea rows="5" cols="60" name="feedback">Give Feeback Here</textarea>
+			<br>
+			<input type="Submit" onclick="yes()">
+			<br>
+			<input type="Reset">
+			<br>
+	</body>
+	<script>
+	function yes(){
+		alert("Thank you for your valuable Feedback.");
+	}
+	</script>
+</html>

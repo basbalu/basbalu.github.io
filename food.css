@@ -1,0 +1,52 @@
+a
+{
+  color:#939;
+}
+h1
+{
+color:yellow;
+background-color:olivedrab;
+opacity: 0.7;
+}
+p
+{
+  color:brown;
+}
+h3
+{
+color:brown;
+}
+body
+{
+
+background-image: url("B:/Study Contents/Files_Labs/zomatogold/bckk1.jpg");
+background-size: cover;
+}
+sidebar
+{
+font-size:15px;
+color:black;
+height:83%;
+width:200px;
+position: fixed;
+z-index:1;
+top:43px;
+left:5;
+background-color:papayawhip;
+padding-top:30px;
+opacity: 0.8;
+}
+footer
+{
+background-color:lightyellow;
+font-size:15px;
+color:brown;
+font-style:italics;
+position: relative;
+bottom:0;
+}
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px burlywood;
+}

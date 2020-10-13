@@ -1,0 +1,20 @@
+body{
+  background-image: url("B:/Study Contents/Files_Labs/zomatogold/bckk.jpg");
+  margin: 20px 20px 20px 20px;
+}
+h1{
+  color:Black;
+  text-align:center;
+}
+h3{
+  color:grey;
+}
+form{
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  width:20px 20px 20px 20px;
+  border: 3px double black;
+  border-radius: 20px;
+  background-color: papayawhip;
+  opacity: 0.8;
+}

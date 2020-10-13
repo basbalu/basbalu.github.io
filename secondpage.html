@@ -1,0 +1,61 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="food.css">
+</head>
+<sidebar>
+		<a href="food.html"><b color="brown">Homepage</b></a><br><br>
+		<a href="offers.html"><b color="grey">Check Current Gold Offers !</b></a><br><br>
+<div id="example1">
+	<p>Hello there!<br><br>Now Order what you want on your doorstep with <b><i>Zomato Gold</i></b><br><br>
+	Get your food at great offers & we deliver it fresh and healthy.
+	</p>
+</div>
+</sidebar>
+<body>
+<center>
+<h1 style=color:papayawhip >Zomato Gold</h1><br>
+<h3 style=color:olivedrab>Get Your Favorite dishes delivered to you!</h3><br><br><br>
+<h2>Select What You want:</h2>
+<div id="rate1">
+		<input type="radio" name=dont id="ch2" value="Chowmin">Chowmin (45/- Rs per Plate)
+        <input type="radio" id="ch3" name=dont value="momo">Momo(30/- Rs per Plate)
+		<input type="radio" id="ch4" name=dont value="Burger">Burger(70/- Rs per Plate)<br><br><br>
+</div>
+Enter Quantity : <br>
+<input type="text" id="Text1" name="TextBox1">
+<br>
+Total Cost :
+<br>
+<input type="text" id="txtresult" name="TextBox3">
+<br>
+<br>
+<center><input type="button" name="clickbtn" value="Check for Cost" onclick="add_number()"></center><br>
+<center><input type="button" name="clickbtn" value="Order Confirm" onclick="yes6()"></center>
+<br>
+
+</body>
+<script>
+function add_number()
+ {
+		 var first_number = parseInt(document.getElementById("Text1").value);
+		 if(document.getElementById("ch2").checked)
+		 {
+		 var result = first_number * 45;
+	 	}
+		 else if(document.getElementById("ch4").checked)
+		 {
+		 var result = first_number * 70;
+	 	}
+		 else if(document.getElementById("ch3").checked)
+		 {
+		 var result = first_number * 30;
+	 	}
+		 document.getElementById("txtresult").value = result;
+	}
+
+function yes6(){
+	alert("WE ARE ON OUR WAY! YOUR ORDER IS CONFIRMED.");
+}
+
+</script>
+</html>
